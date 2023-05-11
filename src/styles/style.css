@@ -1,7 +1,21 @@
-/** CSS STYLE **/
+:root {
+  --white: #fff;
+  --white-light: #d7ccc0;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --main-dark: #42413c;
+  --dark: #2a2626;
+  --dark-light: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
 
-.hello {
-  display: block;
+@font-face {
+  font-family: 'Open Sans';
+  src: url("Fonts\Open_Sans\OpenSans-VariableFont_wdth,wght.ttf");
+}
 
-  color: #fff;
+@font-face {
+  font-family: 'Neucha';
+  src: url("Fonts\Neucha\Neucha-Regular.ttf");
 }
