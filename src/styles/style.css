@@ -82,7 +82,7 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   content: "";
-  opacity: 10%;
+  opacity: 0.1;
 }
 
 main section:nth-child(odd) {
@@ -216,7 +216,7 @@ main section:nth-child(even) {
 
 /* MAIN SECTIONS */
 .section-img {
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .effect-info {
@@ -231,8 +231,9 @@ main section:nth-child(even) {
   color: var(--dark-transparent);
 }
 
-.effect-name, .info {
-  color: var(--dark)
+.effect-name,
+.info {
+  color: var(--dark);
 }
 
 .info {
@@ -255,7 +256,7 @@ h5 {
   font-size: 14px;
   line-height: 1.2em;
   font-weight: bold;
-  font-family:"Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   color: var(--white);
   background-color: var(--brown);
@@ -315,7 +316,7 @@ label {
 
 input::placeholder {
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #e3e3e3;
 }
 
